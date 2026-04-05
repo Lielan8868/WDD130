@@ -70,7 +70,7 @@ I had some difficulty using GitHub. At first I was not sure where I should uploa
 </p>
 
 <p>
-Site Links: (https://github.com/OtavioMBorges/wdd130-project-otavio)<br>
+Site Links: (https://github.com/OtavioMBorges/wdd130-project-otavio)<br>https://github.com/SevrynOrmson/Wdd130_Project_Ormson
 </p>
 
 
