@@ -26,7 +26,7 @@ If I hire a team for a project in the future, I would like to change the communi
 </p>
 
 <p>
-Site Link: (Insert your site link here)
+Site Link: https://github.com/Lielan8868/wdd130-Takahashi
 </p>
 
 
