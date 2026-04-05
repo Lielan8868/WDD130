@@ -48,7 +48,7 @@ I did not have much experience managing projects with GitHub before this assignm
 </p>
 
 <p>
-Site Link: (Insert your site link here)
+Site Link: https://github.com/GoldhoundGH/wdd130_project_bradford/tree/main
 </p>
 
 
