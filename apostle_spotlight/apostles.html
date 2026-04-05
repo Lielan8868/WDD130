@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+    .leaders img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 8px solid white;
+}
+    .leaders {
+    display: grid;
+    gap: 24px;
+    justify-content: center;
+}
+
+.first-presidency {
+    display: grid;   
+    grid-template-columns: repeat(3, auto);
+
+    /* align the 3 portraits to the bottom like the mock */
+    align-items: end;
+    justify-content: center;
+    justify-items: center;
+
+    gap: 26px;
+    margin-bottom: 6px;
+}
+
+/* Make the center (2nd) image slightly larger like the mock */
+.first-presidency img {
+    width: 110px;
+}
+
+.first-presidency img:nth-child(2) {
+    width: 120px;
+}
+
+.apostles {
+    display: grid;   
+    grid-template-columns: repeat(4, auto);
+}
+
+.apostles img {
+    width: 84px;
+}
+    main {
+    width: 760px;
+    max-width: calc(100% - 48px);
+    padding: 5px 15px 30px;
+    border-radius: 24px;
+
+    background-image: url("images/christus.webp");
+    background-repeat: no-repeat;
+
+    /* Fill height 100%, allow horizontal cropping */
+    background-size: auto 100%;
+    background-position: center;
+    color: white;
+    text-align: center;
+
+    /* black frame border like the mock */
+    border: 4px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+    body {
+    margin: 0;
+    min-height: 100vh;
+    background: #E8ECED;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+    h1, h2 {
+    margin: 16px 0;
+    font-weight: 400;
+}
+    </style>
+</head>
+<body>
+  <main>
+
+    <h1>First Presidency</h1>
+    <section class="leaders first-presidency">
+        <img src="images/a1.webp" alt="First Presidency member 1">
+        <img src="images/a2.webp" alt="First Presidency member 2">
+        <img src="images/a3.webp" alt="First Presidency member 3">
+    </section>
+
+    <h2>Quorum of the Twelve Apostles</h2>
+    <section class="leaders apostles">
+        <img src="images/a4.webp" alt="Apostle 1">
+        <img src="images/a5.webp" alt="Apostle 2">
+        <img src="images/a6.webp" alt="Apostle 3">
+        <img src="images/a7.webp" alt="Apostle 4">
+        <img src="images/a8.webp" alt="Apostle 5">
+        <img src="images/a9.webp" alt="Apostle 6">
+        <img src="images/a10.webp" alt="Apostle 7">
+        <img src="images/a11.webp" alt="Apostle 8">
+        <img src="images/a12.webp" alt="Apostle 9">
+        <img src="images/a13.webp" alt="Apostle 10">
+        <img src="images/a14.webp" alt="Apostle 11">
+        <img src="images/a15.webp" alt="Apostle 12">
+    </section>
+
+  </main>
+</body>
+</html>
